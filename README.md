@@ -75,7 +75,9 @@ Identificação de extremos
 # Como executar
 
 Salve o código em um arquivo, por exemplo: producao.py
+
 Execute no terminal:
+
 python producao.py
 
 # Grupo
