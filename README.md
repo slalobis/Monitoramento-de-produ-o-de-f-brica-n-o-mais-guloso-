@@ -44,7 +44,7 @@ Digite a produção da hora 15
 Digite a produção da hora 12
 ...
 
-# Saída esperada:
+# Saída esperada
 A produção total foi de: 200
 A média da produção é de: 12.5
 A hora mais produtiva teve o valor de: 20
