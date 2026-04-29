@@ -15,16 +15,16 @@ hora_mais_produtiva = 1
 valor_hora_menos_produtiva = lista[0]   #Pega os menores valores da lista e conta como hora menos produtiva
 hora_menos_produtiva = 1
 
-for i in range(len(lista)):       #Esse documenta a quantidade de queda da produção dos dados informados da lista produção
+for i in range(len(lista)):       #Esse documenta a hora mais produtiva
     if lista[i] > valor_hora_mais_produtiva:
         valor_hora_mais_produtiva = lista[i]
         hora_mais_produtiva = i + 1
     
-    if lista[i] < valor_hora_menos_produtiva:
+    if lista[i] < valor_hora_menos_produtiva:        #Esse documenta a hora menos produtiva
         valor_hora_menos_produtiva = lista[i]
         hora_menos_produtiva = i + 1
         
-for i in range(1, len(lista)):
+for i in range(1, len(lista)):        #Esse documenta a quantidade de queda da produção dos dados informados da lista produção
     if lista[i] < lista[i - 1]:
         queda_producao += 1
         
